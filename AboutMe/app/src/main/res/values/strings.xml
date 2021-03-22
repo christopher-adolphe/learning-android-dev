@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">John Doe</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare et dui ac dapibus. Fusce elementum arcu nibh, id posuere sem molestie eget.
+        Donec lobortis eros a vulputate pharetra. Integer gravida tincidunt placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut facilisis accumsan mi, id blandit mauris eleifend ut.
+            Aenean sit amet dignissim dui, et fermentum massa. Nulla facilisi. Nullam malesuada elit eu ipsum mattis sodales. Integer finibus ullamcorper tortor vel pretium. Aenean ut aliquam libero.\n\n
+        Quisque feugiat ligula quis nisl molestie eleifend. Phasellus ornare nisi ac scelerisque sagittis. Praesent viverra mi id facilisis convallis. Nunc sed efficitur nisi, et aliquam sem.
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam eget leo eget dui viverra iaculis at vel mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            Donec pretium mi ultricies elit rutrum volutpat. Sed condimentum orci at vulputate laoreet.
+    </string>
+    <string name="what_is_your_nickname">What is your nickname</string>
+    <string name="done">Done</string>
+</resources>
