@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="detail_text">Detail</string>
+    <string name="toDoTitle_text">ToDo Title</string>
+    <string name="toDoDesc_text">ToDo Description</string>
+    <string name="toDoList_fragment">ToDo List</string>
+    <string name="toDoDetail_fragment">ToDo Detail</string>
+</resources>
