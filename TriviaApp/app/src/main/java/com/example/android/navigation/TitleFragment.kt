@@ -21,14 +21,14 @@ class TitleFragment : Fragment() {
         val binding: FragmentTitleBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_title, container, false)
 
         // Opt. 1: Getting an instance of the navigation controller to create the navigation
-        // binding.playButton.setOnClickListener { view: View ->
-            // view.findNavController().navigate(R.id.action_titleFragment_to_gameFragment)
-        // }
+         binding.playButton.setOnClickListener { view: View ->
+             view.findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment())
+         }
 
         // Opt. 2: Using Navigation to create the navigation
-        binding.playButton.setOnClickListener(
-                Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_gameFragment)
-        )
+        // binding.playButton.setOnClickListener(
+                // Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_gameFragment)
+        // )
 
         // Setting setHasOptionsMenu to true to indicate Android that the fragment has an overflow menu
         setHasOptionsMenu(true)
@@ -40,7 +40,7 @@ class TitleFragment : Fragment() {
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
 
-        inflater?.inflate(R.menu.overflow_menu, menu)
+        inflater.inflate(R.menu.overflow_menu, menu)
     }
 
     // Overriding the onOptionsItemSelected method to navigate to the specified fragment when an item is selected from the menu
